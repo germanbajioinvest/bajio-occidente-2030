@@ -128,10 +128,10 @@
       <div class="container">
         <span class="kicker light">Energía, agua y talento · Avance metodológico</span>
         <h1>Agua, energía y talento en el Bajío-Occidente</h1>
-        <p>Catorce indicadores estatales de Aguascalientes, Guanajuato, Jalisco y Querétaro, en orden de clave INEGI, con su referencia nacional, el seguimiento federal y los Objetivos de Desarrollo Sostenible. Talento ya tiene los cuatro estados. En agua y energía solo Guanajuato tiene cifras capturadas; los otros tres estados están en recopilación. Un dato faltante no es cero.</p>
+        <p>Catorce indicadores estatales de Aguascalientes, Guanajuato, Jalisco y Querétaro, en orden de clave INEGI, con su referencia nacional, el seguimiento federal y los Objetivos de Desarrollo Sostenible. Agua, energía y talento ya tienen los cuatro estados. Un dato faltante no es cero.</p>
         <div class="badges">
-          <span class="badge gold">Versión 0.2 · 11 de noviembre de 2026</span>
-          <span class="badge">Agua y energía: corte 9-nov-2026 · Talento: SEP, ciclo 2024-2025</span>
+          <span class="badge gold">Versión 0.3 · 22 de noviembre de 2026</span>
+          <span class="badge">Agua y energía: corte 22-nov-2026 · Talento: SEP, ciclo 2024-2025</span>
           <span class="badge">Elaboró: Bajío Ventures</span>
         </div>
       </div>
@@ -140,9 +140,9 @@
     <section class="stats" aria-label="Resumen">
       <div class="container stats-grid">
         <div class="stat"><b>14</b><span>indicadores: 4 de agua, 5 de energía y 5 de talento</span></div>
-        <div class="stat"><b>4 de 4</b><span>estados con datos de talento, de la misma fuente (SEP)</span></div>
-        <div class="stat"><b>24</b><span>valores de agua y energía en recopilación: 8 indicadores en 3 estados</span></div>
-        <div class="stat"><b>5</b><span>diferencias relevantes de un estado frente al nacional, todas en talento</span></div>
+        <div class="stat"><b>4 de 4</b><span>estados con datos en los 13 indicadores comparables</span></div>
+        <div class="stat"><b>19</b><span>diferencias relevantes de un estado frente al nacional en agua y energía</span></div>
+        <div class="stat"><b>5</b><span>diferencias relevantes de un estado frente al nacional en talento</span></div>
       </div>
     </section>
 
@@ -189,10 +189,10 @@
       <div class="container">
         <span class="kicker">Fuentes</span>
         <ul>
-          <li><a href="https://observatorio2.guanajuato.gob.mx/ped" target="_blank" rel="noopener noreferrer">Observatorio Guanajuato 2.0, tablero del PED 2050</a> y sus fichas por indicador (datos de Guanajuato).</li>
+          <li><a href="https://observatorio2.guanajuato.gob.mx/ped" target="_blank" rel="noopener noreferrer">Observatorio Guanajuato 2.0, tablero del PED 2050</a> y la comparación por entidad de sus fichas 574, 1302, 1384, 1040, 1672, 1059, 1041 y 1166 (cuatro estados y nacional, consulta del 22-nov-2026).</li>
           <li><a href="https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/ei/EIC2025-def_RR.pdf" target="_blank" rel="noopener noreferrer">INEGI, Encuesta Intercensal 2025</a> (paneles y calentadores solares, nacional).</li>
           <li><a href="https://sidof.segob.gob.mx/notas/docFuente/5776838" target="_blank" rel="noopener noreferrer">SENER, Programa Sectorial de Energía 2025-2030</a>.</li>
-          <li><a href="https://agua.org.mx/wp-content/uploads/2026/05/PROGRAMA_Nacional_H_drico_2026-2030.pdf" target="_blank" rel="noopener noreferrer">CONAGUA, Programa Nacional Hídrico 2026-2030</a> (copia del DOF).</li>
+          <li><a href="https://agua.org.mx/wp-content/uploads/2026/05/PROGRAMA_Nacional_H_drico_2026-2030.pdf" target="_blank" rel="noopener noreferrer">CONAGUA, Programa Nacional Hídrico 2026-2030</a> (copia del DOF); tabla 4, tratamiento por entidad 2024.</li>
           <li><a href="https://sdg6data.org/country-or-area/Mexico" target="_blank" rel="noopener noreferrer">UN-Water, SDG 6 Data Portal: México</a>.</li>
           <li>Citibanamex, Índice de Estados Sostenibles 2023 (generación distribuida, capacidad limpia e intensidad eléctrica).</li>
           <li>SEP, Estadística e indicadores educativos por entidad federativa, ciclo 2024-2025: <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/01_AGS.pdf" target="_blank" rel="noopener noreferrer">01 Aguascalientes</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/11_GTO.pdf" target="_blank" rel="noopener noreferrer">11 Guanajuato</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/14_JAL.pdf" target="_blank" rel="noopener noreferrer">14 Jalisco</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/22_QRO.pdf" target="_blank" rel="noopener noreferrer">22 Querétaro</a> (talento).</li>
@@ -222,37 +222,37 @@ const IND=[
   eq:"No hay. Índice propio del Gobierno de Guanajuato (SAMA).",fed:"CONAGUA: 286 de 653 acuíferos sin disponibilidad (2023)",ods:"Sin indicador directo; contexto 6.4.2",
   pills:[["C · no comparable","na"],["Solo Guanajuato","na"]],verdict:"Indicador propio de Guanajuato. No se compara entre estados.",dom:[0.5,1],soloGTO:true},
  {id:"574",b:"agua",n:"Tratamiento de aguas residuales",u:"%",what:"Agua residual tratada respecto de la que colecta el alcantarillado municipal.",
-  v:{GTO:70.57},y:"2024",src:OBS,nac:68.1,ny:"2024",nacSrc:"CONAGUA, Programa Nacional Hídrico",alerta:false,
+  v:{AGS:97.0,GTO:79.3,JAL:91.9,QRO:69.9},y:"2024",src:"CONAGUA, PNH 2026-2030, tabla 4",nac:68.1,ny:"2024",nacSrc:"CONAGUA, Programa Nacional Hídrico",alerta:true,
   eq:"Sí. CONAGUA, cobertura municipal por estado.",fed:"68.1 % nacional (2024)",ods:"6.3.1: 64 % de aguas domésticas tratadas de forma segura (2024), otra definición",
-  pills:[["A · misma definición","ok"],["Sin diferencia relevante","ok"]],verdict:"Guanajuato está 2.47 puntos sobre el nacional. No alcanza el umbral de 5 puntos.",dom:[0,100]},
+  pills:[["A · misma definición","ok"],["Diferencia relevante","warn"]],verdict:"Aguascalientes (+28.9 puntos), Jalisco (+23.8) y Guanajuato (+11.2) superan al nacional. Querétaro (+1.8) está en el nivel nacional. El Observatorio Guanajuato 2.0 publica cifras de 6 a 13 puntos menores para el mismo año; se usa la tabla federal.",dom:[0,100]},
  {id:"1302",b:"agua",n:"Presión hídrica",u:"%",what:"Extracción para usos consuntivos respecto del agua renovable, con aproximación regional.",
-  v:{GTO:45.06},y:"2023",src:OBS,nac:45,ny:"2023",nacSrc:"ODS 6.4.2 de México (UN-Water)",alerta:true,
+  v:{AGS:45.47,GTO:45.06,JAL:45.53,QRO:25.69},y:"2023",src:OBS,nac:53.81,ny:"2023",nacSrc:OBS,alerta:false,
   eq:"Sí. CONAGUA e INEGI; el método se replica por estado.",fed:"Grado de presión 19.2 % nacional (2023), otro denominador",ods:"6.4.2: 45 % (2023), descuenta el caudal ecológico",
-  pills:[["B · definición cercana","warn"],["Nota metodológica","bad"]],verdict:"La cifra estatal coincide casi con la nacional del ODS. Se confirmará con la ficha oficial antes de comparar estados.",dom:[0,100]},
+  pills:[["A · misma fuente","ok"],["Diferencia relevante","warn"]],verdict:"Verificado: la ficha da el valor de cada estado. Los cuatro tienen menos presión que el nacional (53.81 %); Querétaro, unos 20 puntos menos que los otros tres. Menor es mejor.",dom:[0,100]},
  {id:"1384",b:"agua",n:"Productividad en unidades de riego",u:"kg/m³",what:"Producción agrícola respecto del agua concesionada en unidades de riego.",
-  v:{GTO:2.98},y:"2023",src:OBS,nac:null,nacTxt:"referencia nacional en recopilación",alerta:false,
+  v:{AGS:5.18,GTO:2.98,JAL:4.74,QRO:4.24},y:"2023",src:OBS,nac:2.67,ny:"2023",nacSrc:OBS,alerta:false,
   eq:"Sí. SNIEG, Catálogo Nacional de Indicadores, por entidad.",fed:"Programa Nacional Hídrico: modernización de distritos de riego; no mide productividad",ods:"6.4.1: 14 USD por m³, todos los sectores (2023), otra métrica",
-  pills:[["A entre estados","ok"],["Sin referencia nacional","na"]],verdict:"Falta la referencia nacional y el dato de los otros tres estados.",dom:[0,5]},
+  pills:[["A entre estados","ok"],["Diferencia relevante","warn"]],verdict:"Los cuatro superan al nacional por 10 % o más. Guanajuato es el más bajo de los cuatro; Aguascalientes produce 1.7 veces más por metro cúbico.",dom:[0,6]},
  {id:"1040",b:"energia",n:"Viviendas con paneles solares",u:"%",what:"Viviendas habitadas con paneles solares para generar electricidad.",
-  v:{GTO:1.42},y:"2025",src:OBS,nac:1.5,ny:"2025",nacSrc:"INEGI, Encuesta Intercensal 2025",alerta:false,
+  v:{AGS:2.59,GTO:1.42,JAL:2.69,QRO:1.85},y:"2025",src:OBS,nac:1.53,ny:"2025",nacSrc:"INEGI, Encuesta Intercensal 2025",alerta:false,
   eq:"Sí. INEGI, Censo 2020 y Encuesta Intercensal 2025.",fed:"PROSENER 3.2: 180,000 kW para reducir la pobreza energética",ods:"Contexto 7.2.1",
-  pills:[["A · misma definición","ok"],["Sin diferencia relevante","ok"]],verdict:"1.42 % en Guanajuato frente a 1.5 % nacional: diferencia dentro del margen de una encuesta.",dom:[0,3]},
+  pills:[["A · misma definición","ok"],["Diferencia relevante","warn"]],verdict:"Jalisco (1.76 veces) y Aguascalientes (1.69 veces) superan al nacional. Guanajuato y Querétaro, sin diferencia relevante.",dom:[0,3]},
  {id:"1672",b:"energia",n:"Viviendas con calentador solar",u:"%",what:"Viviendas habitadas con calentador solar de agua.",
-  v:{GTO:50.38},y:"2025",src:OBS,nac:16.8,ny:"2025",nacSrc:"INEGI, Encuesta Intercensal 2025",alerta:true,
+  v:{AGS:49.46,GTO:50.38,JAL:33.49,QRO:32.31},y:"2025",src:OBS,nac:16.78,ny:"2025",nacSrc:"INEGI, Encuesta Intercensal 2025",alerta:false,
   eq:"Sí. INEGI, Censo 2020 y Encuesta Intercensal 2025.",fed:"Sin indicador federal",ods:"Contexto 7.2.1 (el calor solar cuenta como renovable)",
-  pills:[["A, si la definición coincide","warn"],["Nota metodológica","bad"]],verdict:"La cifra estatal triplica la nacional. Se confirmará la definición de la ficha antes de interpretarla.",dom:[0,100]},
+  pills:[["A · misma definición","ok"],["Diferencia relevante","warn"]],verdict:"Verificado: es un rasgo regional, no un cambio de cálculo; en 2020 ya era 34.2 % en Guanajuato frente a 10.3 % nacional. Los cuatro estados tienen entre 1.9 y 3 veces el nacional.",dom:[0,100]},
  {id:"1059",b:"energia",n:"Generación distribuida",u:"%",what:"Capacidad en instalaciones de hasta 0.5 MW respecto de la capacidad convencional del estado.",
-  v:{GTO:7.31},y:"2022",src:OBS,nac:null,nacTxt:"referencia nacional en recopilación",alerta:false,
+  v:{AGS:9.17,GTO:7.31,JAL:16.98,QRO:7.08},y:"2022",src:OBS,nac:3.19,ny:"2022",nacSrc:OBS,alerta:false,
   eq:"Sí. Índice de Estados Sostenibles 2023, los 32 estados.",fed:"PROSENER: 4,788 MW adicionales de generación distribuida 2025-2030 (meta en MW)",ods:"Contexto 7.2.1",
-  pills:[["A entre estados","ok"],["C con el federal","na"]],verdict:"Falta el dato de los otros tres estados.",dom:[0,25]},
+  pills:[["A entre estados","ok"],["Diferencia relevante","warn"]],verdict:"Jalisco (+13.8 puntos) y Aguascalientes (+6.0) superan al nacional. Guanajuato y Querétaro (+4 puntos) no alcanzan el umbral de 5.",dom:[0,25]},
  {id:"1041",b:"energia",n:"Capacidad limpia y renovable",u:"proporción",what:"Capacidad limpia y renovable respecto de la capacidad pública total del estado.",
-  v:{GTO:0.14},y:"2022",src:OBS,nac:null,nacTxt:"sin referencia comparable",rank:"Guanajuato: lugar 25 de 32",alerta:false,
+  v:{AGS:1.0,GTO:0.14,JAL:0.62,QRO:0.14},y:"2022",src:OBS,nac:null,nacTxt:"sin referencia comparable",rank:"De mayor a menor entre 32: Aguascalientes 3, Jalisco 10, Querétaro 24, Guanajuato 25",alerta:false,
   eq:"Sí. Índice de Estados Sostenibles 2023, los 32 estados.",fed:"PROSENER 2.1: energías limpias, 23.19 % de la generación neta; meta 38 % en 2030",ods:"7.2.1 (energía final) y 7.b.1 (capacidad renovable por habitante)",
-  pills:[["B · capacidad frente a generación","warn"],["Unidad por conciliar","warn"]],verdict:"Se usa la posición entre los 32 estados hasta conciliar la unidad.",dom:[0,1]},
+  pills:[["B · capacidad frente a generación","warn"],["Unidad por conciliar","warn"]],verdict:"Se usa la posición entre los 32 estados hasta conciliar la unidad. Guanajuato y Querétaro están en el último cuartil.",dom:[0,1]},
  {id:"1166",b:"energia",n:"Intensidad eléctrica del PIB",u:"kWh por millón de pesos",what:"Electricidad consumida respecto del PIB estatal.",
-  v:{GTO:6292.62},y:"2021",src:OBS,nac:null,nacTxt:"por conciliar unidades",alerta:true,noScale:true,
+  v:{AGS:6367.44,GTO:6292.62,JAL:5452.41,QRO:6499.22},y:"2021",src:OBS,nac:null,nacTxt:"por conciliar unidades",alerta:true,noScale:true,
   eq:"Sí. Índice de Estados Sostenibles 2023, los 32 estados.",fed:"PROSENER 2.2: reducir la intensidad energética 2.9 % al año",ods:"7.3.1: energía primaria por unidad de PIB",
-  pills:[["B · energía total frente a electricidad","warn"],["Nota metodológica","bad"]],verdict:"La ficha publica unidades que no coinciden entre sí. La magnitud no se interpreta hasta conciliarlas.",dom:null},
+  pills:[["B · energía total frente a electricidad","warn"],["Nota metodológica","bad"]],verdict:"La ficha publica unidades que no coinciden entre sí. La magnitud no se interpreta. Jalisco es el menos intensivo de los cuatro, igual que con las ventas de electricidad de 2023 (SENER, SIE).",dom:null},
  {id:"T1",b:"talento",n:"Grado promedio de escolaridad",u:"grados",what:"Años de escuela aprobados, en promedio, por la población de 15 años y más.",
   v:{AGS:10.8,GTO:9.6,JAL:10.4,QRO:11.2},y:"2024-2025",src:SEP,nac:10.2,ny:"2024-2025",nacSrc:SEP,alerta:false,
   eq:"Sí. Misma fuente para los cuatro estados.",fed:"Programa Sectorial de Educación 2025-2030",ods:"Contexto 4.1 y 4.4",
